@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const APIKey = 'AIzaSyDJQtIad_v36f92rVrSYT-q0Jh1DR5w0HI'; //Type your API Key that created from Google API by you
-const channelID = 'UC9GKVxJsDBqXvYHedv1iBoQ' //MetallicaTV Channel ID
-const resultMax = 10;
+const APIKey = 'AIzaSyDJQtIad_v36f92rVrSYT-q0Jh1DR5w0HI'; 
+const channelID = 'UC9GKVxJsDBqXvYHedv1iBoQ' ;
+const resultMax = 5;
 
 const selfURL = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelID}&maxResults=${resultMax}&order=date&key=${APIKey}`
 
