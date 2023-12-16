@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Youtube from './youtube';
+import Sun from './sun.png';
+
 
 
 class App extends Component {
@@ -8,8 +10,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="sun.png" className="App-logo" alt="logo" />
-          <h1>Bhanu Production</h1>
+<img src={Sun} className="App-logo">
+  
+</img>          <h1>Bhanu Production</h1>
           <h1 className="App-title">Custom Video player</h1>
         </header>
         <Youtube/>
